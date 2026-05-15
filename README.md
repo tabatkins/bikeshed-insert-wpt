@@ -30,4 +30,4 @@ and do nothing else permanent.
 
 After running, manually verify that the tests all look like they're in a good spot with `git diff`.
 
-(Still under development, but in local usage with Gemini it does quite well.)
+(Still under development, but in local usage with Gemini it does quite well. I've even had it identify tests meant for a different level of the current spec, and correctly insert them into a `<wpt hidden>` element at the end of the doc.)
